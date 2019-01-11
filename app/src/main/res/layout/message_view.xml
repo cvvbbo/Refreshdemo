@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <TextView
+            android:textColor="@color/text_color"
+            android:textSize="19sp"
+            android:layout_centerInParent="true"
+            android:text="通知"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <View
+            android:id="@+id/buttom_line"
+            android:layout_alignParentBottom="true"
+            android:background="@color/tcredit_line_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    </RelativeLayout>
+    
+    
+    <View
+        android:background="@color/gay"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+
+
+    <com.liaoinstan.springview.aliheader.SpringView
+        android:id="@+id/springview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gay"
+        app:type="follow">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:visibility="gone"
+                android:background="@color/message_item_color"
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:id="@+id/no_message_im"
+                android:src="@drawable/no_message_im"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <!--</ScrollView>-->
+
+
+
+
+
+
+
+    </com.liaoinstan.springview.aliheader.SpringView>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

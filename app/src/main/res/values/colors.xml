@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="line_color1">#EDEDED</color>
+
+    <color name="mywhite">#ffffff</color>
+
+    <color name="aaa">#FC5B30</color>
+
+    <color name="myblack">#000000</color>
+
+    <color name="ccc">#FF4B4F</color>
+
+    <color name="my_transparency">#00000000</color>
+
+    <color name="apply_button_color">#FF696B</color>
+
+    <color name="gay">#F5F5F5</color>
+
+    <color name="text_color">#333333</color>
+
+    <color name="text_color2">#666666</color>
+
+    <color name="text_color3">#787878</color>
+
+    <color name="input_bac">#F2F2F2</color>
+
+    <color name="login_bt_bac">#BFBFBF</color>
+
+    <color name="login_bt_press">#FF4B4F</color>
+
+    <color name="tcredit_line_color">#999999</color>
+
+    <color name="tcredit_blue">#0084E4</color>
+
+
+    <color name="message_item_color">#FDFDFD</color>
+
+
+    <color name="white">#ffffffff</color>
+
+
+
+    <color name="text_back">#ABABAB</color>
+</resources>
